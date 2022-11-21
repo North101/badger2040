@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Arkham Horror LCG",
+        "module": "ahlcg2040",
+        "callable": "start"
+    },
+    {
+        "name": "Android: Netrunner",
+        "module": "netrunner2040",
+        "callable": "start"
+    },
+    {
+        "name": "Lord of the Rings LCG",
+        "module": "lotrlcg2040",
+        "callable": "start"
+    },
+    {
+        "name": "Mahjong",
+        "module": "mahjong2040.client",
+        "callable": "client.start"
+    },
+    {
+        "name": "Blaseball",
+        "module": "blaseball2040",
+        "callable": "start"
+    }
+]

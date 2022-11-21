@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "install",
+      "command": "rshell",
+      "args": [
+        "-f",
+        "rshell/install.rs",
+      ],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "sync",
+      "command": "rshell",
+      "args": [
+        "-f",
+        "rshell/sync.rs",
+      ],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "run",
+      "command": "rshell",
+      "args": [
+        "run",
+        "main.py",
+      ],
+      "type": "shell",
+      "problemMatcher": [],
+    },
+  ]
+}
