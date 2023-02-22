@@ -16,8 +16,8 @@
     },
     {
         "name": "Mahjong",
-        "module": "mahjong2040.client",
-        "callable": "client.start"
+        "module": "mahjong2040",
+        "callable": "start"
     },
     {
         "name": "Blaseball",

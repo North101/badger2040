@@ -34,5 +34,3 @@ for root, dirs, files in os.walk('.'):
             ]
         with open(f'{root}/package.json', 'w') as f:
             json.dump(package, f, indent=4)
-
-        

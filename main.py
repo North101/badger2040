@@ -1,3 +1,3 @@
-import badger_launcher
+import mahjong2040
 
-badger_launcher.start()
+mahjong2040.start()
